@@ -30,11 +30,11 @@ if play == "y":
         elif guess > number:
             print("Guess too high!")
             guesses += 1
-            print(f"Attempts left: {7-guesses}")
+            print(f"Attempts left: {10-guesses}")
         elif guess < number:
             print("Guess too low!")
             guesses += 1
-            print(f"Attempts left: {7-guesses}")
+            print(f"Attempts left: {10-guesses}")
     else:
         print(f"GAME OVER! THE NUMBER WAS {number}")
 elif play == "n":
